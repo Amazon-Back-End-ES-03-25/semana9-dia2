@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.9">
+  <diagram name="Casos de Uso - Restaurante" id="caso-uso-id">
+    <mxGraphModel dx="1018" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor_cliente" value="Cliente" style="shape=umlActor;" parent="1" vertex="1">
+          <mxGeometry x="220" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" value="Buscar disponibilidad" style="ellipse;whiteSpace=wrap;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="400" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc2" value="Reservar mesa" style="ellipse;whiteSpace=wrap;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="400" y="220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc3" value="Cancelar reserva" style="ellipse;whiteSpace=wrap;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="400" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1" style="endArrow=none;" parent="1" source="actor_cliente" target="uc1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2" style="endArrow=none;" parent="1" source="actor_cliente" target="uc2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel3" style="endArrow=none;" parent="1" source="actor_cliente" target="uc3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9IvL4V5-EV5HUX_p45cE-8" value="Retaurante" style="shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9IvL4V5-EV5HUX_p45cE-9" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uc3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="180" as="sourcePoint" />
+            <mxPoint x="680" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9IvL4V5-EV5HUX_p45cE-11" value="Crear mesa" style="ellipse;whiteSpace=wrap;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="343" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9IvL4V5-EV5HUX_p45cE-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9IvL4V5-EV5HUX_p45cE-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="243" as="sourcePoint" />
+            <mxPoint x="680" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9IvL4V5-EV5HUX_p45cE-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="9IvL4V5-EV5HUX_p45cE-14" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="303" as="sourcePoint" />
+            <mxPoint x="680" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9IvL4V5-EV5HUX_p45cE-14" value="Borrar mesa" style="ellipse;whiteSpace=wrap;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="403" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
